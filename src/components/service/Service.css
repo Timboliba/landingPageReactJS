@@ -1,0 +1,147 @@
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 700px;
+    background-color: rgb(17, 24, 40);
+    color: black;
+    
+}
+
+
+main .itemService{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+main .itemService div{
+    margin-top: 100px;
+}
+
+main .itemService div{
+    height: 400px;
+    width: 25%;
+    border-radius: 10px;
+   
+}
+
+main .itemService  .stock{
+    background-image: url('../../../public/stocker.png');
+    background-size: cover;
+   
+}
+
+main .itemService  .learn{
+    
+    background-image: url('../../../public/lecture.png');
+    background-size: cover;
+}
+
+
+main .itemService  .download{
+    background-image: url('../../../public/telechargement.png');
+    background-size: cover;
+    
+}
+
+main .serviceProposer{
+    text-align: center;
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+main .serviceProposer span:hover{
+    color: silver;
+    
+}
+
+main .itemService div{
+    border-radius: 10px;
+}
+
+main .learn img{
+    width: 50%;
+}
+
+main .learn{
+    width: auto;
+}
+
+
+
+
+main .itemService div:hover{
+  background-color: teal;
+}
+
+@media screen and (max-width:640px){
+    main .serviceProposer{
+        font-size: 25px;
+    }
+
+    main .itemService img{
+        height: 100%;
+        width: 100%;
+       
+    }
+    main{
+        
+        flex-wrap: wrap;
+        height: auto;
+        background-color: rgb(17, 24, 40);
+        color: black;
+        
+    }
+    
+    /* main .itemService div{
+        height: 400px;
+        width: 25%;
+        border-radius: 10px;
+       
+    } */
+    main .itemService  .stock{
+        background-image: url('../../../public/stocker.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+       
+    }
+    
+    main .itemService  .learn{
+        
+        background-image: url('../../../public/lecture.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    main .itemService div:hover{
+        background-color: rgba(128, 128, 128, 0);
+      }
+
+    main .itemService  .download{
+        background-image: url('../../../public/telechargement.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }
+
+   main .itemService{
+        display: flex;
+        flex-direction: column;
+       
+        width: 100%;
+        /* height: fit-content; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    main{
+       flex-wrap: wrap;
+        
+    }
+
+    
+    
+}
+
